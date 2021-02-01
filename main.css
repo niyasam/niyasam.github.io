@@ -2,6 +2,9 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 ::-webkit-scrollbar {
     width: 0px; /* Remove scrollbar space */
@@ -358,7 +361,9 @@ legend {
 }
 
 /**
- * Remove the default vertical scrollbar in IE.
+ * Remove the default vertical 
+
+bar in IE.
  */
 textarea {
     overflow: auto;
